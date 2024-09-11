@@ -1,5 +1,5 @@
 import MainLayout from '../../layout/MainLayout';
-import { Typography, Button } from '@material-tailwind/react';
+import { Typography } from '@material-tailwind/react';
 
 function AboutPage() {
   return (
