@@ -1,12 +1,12 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 const firebaseConfig = {
-  apiKey: 'AIzaSyCzxD0oxxZwuSuT0Lo0bZunKMp9FTxKa4Q',
-  authDomain: 'siswa-app-a2c2f.firebaseapp.com',
-  projectId: 'siswa-app-a2c2f',
-  storageBucket: 'siswa-app-a2c2f.appspot.com',
-  messagingSenderId: '655607624715',
-  appId: '1:655607624715:web:6d159b5486b11e3c4cc30e',
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
