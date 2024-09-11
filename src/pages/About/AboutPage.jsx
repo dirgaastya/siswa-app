@@ -4,7 +4,7 @@ import { Typography } from '@material-tailwind/react';
 function AboutPage() {
   return (
     <MainLayout>
-      <div className="p-8">
+      <div className="p-4 md:p-8">
         <div className="container  px-4">
           <Typography variant="h1" color="blue-gray" className=" mb-8">
             Tentang Kami

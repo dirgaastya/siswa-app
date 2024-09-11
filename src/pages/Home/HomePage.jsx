@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 function HomePage() {
   return (
     <MainLayout>
-      <header className="bg-white p-8">
-        <div className="grid mt-16 min-h-[82vh] w-full lg:h-[54rem] md:h-[34rem] place-items-stretch bg-[url('/image/bg-hero-17.svg')] bg-center bg-contain bg-no-repeat">
-          <div className="container mx-auto px-4 text-center">
+      <header className="bg-white md:p-4 lg:p-8">
+        <div className="grid mt-8 lg:mt-16  w-full ">
+          <div className="container mx-auto md:px-4 text-center">
             <Typography className="inline-flex text-xs rounded-lg border-[1.5px] border-blue-gray-50 bg-white py-1 lg:px-4 px-1 font-medium text-primary">
               Kabar Terbaru! Perkenalkan sistem manajemen siswa terbaru kami
             </Typography>

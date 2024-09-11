@@ -24,9 +24,9 @@ function StudentPage() {
 
   return (
     <MainLayout>
-      <div className="p-8">
-        <div className="flex items-center justify-between mb-6">
-          <Typography variant="h1" color="blue-gray">
+      <div className="p-4 md:p-8">
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-6">
+          <Typography variant="h3" color="blue-gray">
             Daftar Siswa
           </Typography>
           <Button onClick={handleOpen}>Tambah Siswa</Button>

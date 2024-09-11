@@ -95,7 +95,7 @@ const StudentForm = ({ open, handle, id, student }) => {
         {id.length !== 0 ? 'Edit' : 'Tambah'} Data Siswa
       </DialogHeader>
       <DialogBody>
-        <div className="grid grid-cols-2 gap-x-6 gap-y-3 px-6">
+        <div className="grid lg:grid-cols-2 lg:gap-x-6 gap-y-3 px-6">
           <div>
             <Typography variant="h6" color="blue-gray" className="mb-3">
               Nama Lengkap
